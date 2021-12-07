@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
-    <title>ToDoApp</title>
+    
+    <title>To-Do-App</title>
 </head>
 <body>
+    <header><h1>Welcome to your TODO's</h1></header>
+    <div class="form">
+        <div><input type="text" class="todo-input"></div>
+        <button class="btn-add" type="submit">+</button>
+        <div>
+        <select class="select-btn">
+            <option value="All">All</option>
+            <option value="Completed">Completed</option>
+            <option value="Uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    </div>
+    <div class="todos-container">
+            <ul class="todo-list">
+                <div class="todo">
+                    
+                    <li class="todo-item"></li>
+                    <button class="a">done</button>
+                    <button class="b">delete</button>
+                
+            </ul>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
