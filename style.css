@@ -14,7 +14,7 @@ font-size: 200%;
 
 body {
     background-image:url(todoimage.jpg);
-    background-size:50%;
+    background-size:100%;
     display:flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -104,36 +104,13 @@ li{
     list-style-type: none;
 }
 
-#delete-btn{
-    border-radius:10% ;
-    cursor: pointer;
-    background-color:#ff8080;
-    border:1px #ff8080;
+.fa-check{
+    color: green;
+    margin-left: 10px;
 }
 
-#delete-btn:hover{
-    border: #ff8080 solid 1px;
-    background-color: white;
-}
-
-#delete-btn:active{
-    transform:translateY(2px) ;
-}
-
-#done-btn{
+.fa-trash{
+    color:red;
+    margin-left: 10px;
     margin-right: 10px;
-    border-radius:10% ;
-    float: right;
-    cursor: pointer;
-    background-color: #5CC658;
-    border:1px #5CC658;
-}
-
-#done-btn:hover{
-    background-color: white;
-    border:solid 1px #5CC658;
-}
-
-#done-btn:active{
-    transform:translateY(2px) ;
 }
